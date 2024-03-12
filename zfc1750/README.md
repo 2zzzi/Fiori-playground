@@ -19,7 +19,11 @@
 
 ## zfc1750
 
-An SAP Fiori application.
+ComboBox로 학급을 선택하면 List에 해당 반의 학생 출력하는 SAPUI5 실습 문제입니다. 
+List의 학생을 선택하면 하단에 Student Info를 보여줍니다.
+
+### 실행 화면
+![alt text](image.png)
 
 ### Starting the generated app
 

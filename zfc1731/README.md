@@ -19,7 +19,10 @@
 
 ## zfc1731
 
-An SAP Fiori application.
+학번을 입력한 후 Search버튼을 누르면 학생 정보가 보여집니다.
+
+### 실행화면
+![alt text](image.png)
 
 ### Starting the generated app
 

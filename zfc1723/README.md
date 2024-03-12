@@ -18,7 +18,14 @@
 |**Add Eslint configuration**<br>False|
 
 ## zfc1723
+Fragment 실습
+Panel, SimpleForm을 활용해 데이터를 보여줍니다.
+Dialog를 통해 Modal Dialog에 데이터를 보여줍니다.
 
+### 실행화면
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 ### Starting the generated app
 

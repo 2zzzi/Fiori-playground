@@ -19,7 +19,10 @@
 
 ## zfc1742
 
-An SAP Fiori application.
+학급 List를 선택하면 ComboBox의 Item이 선택된 학급의 학생데이터가 보여지며 선택할 수 있습니다.
+
+### 실행화면
+![alt text](image.png)
 
 ### Starting the generated app
 
