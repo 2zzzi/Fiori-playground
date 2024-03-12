@@ -1,0 +1,39 @@
+<core:FragmentDefinition 
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:l="sap.ui.layout"
+>
+
+    <Panel expandable="true" expanded="true" >
+
+        <Toolbar>
+            <content>
+                <Title text="Student Info" />
+            </content>
+        </Toolbar>
+
+        <content>
+            <f:SimpleForm>
+
+                <f:content>
+                    <Label text="Student Number" />
+                    <Input value="{stdInfo>/stdNo}" enabled="false"/>
+
+                    <Label text="Student Name"  />
+                    <Input value="{stdInfo>/stdName}" enabled="false" />
+
+                    <Label text="Gender Key" />
+                    <Input value="{stdInfo>/stdGender}" description="{stdInfo>/stdGenderText}" width="70%"  enabled="false" />
+                    <Label text="Class Info"/>
+                    <Button text="Press Button" press="onClass" />
+                </f:content>
+
+            </f:SimpleForm>
+            
+
+        </content>
+
+    </Panel>
+
+</core:FragmentDefinition>

@@ -1,0 +1,14 @@
+<mvc:View controllerName="sync4.zfc1731.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Page id="page" title="{i18n>title}">
+        <content> 
+        
+        <core:Fragment fragmentName="sync4.zfc1731.view.Search" type="XML"/>
+        <core:Fragment fragmentName="sync4.zfc1731.view.Info" type="XML"/>
+
+        </content>
+    </Page>
+</mvc:View>

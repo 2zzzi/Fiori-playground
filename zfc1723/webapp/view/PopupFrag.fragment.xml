@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+
+    <Dialog id="dlgApt" title="Airport Info">
+
+        
+
+        <buttons>
+            <Button text="Close" press="onClose"/>
+        </buttons>
+
+        <content>
+
+        <!-- <core:Title text="Airport Detail Info" /> -->
+
+        <Label text="Departure" />
+            <Input value="JFK" enabled="false" description="New York JF Kennedy, USA" />
+        <Label text="Arrival" />
+            <Input value="SFO" enabled="false" description="San Fransisco Int Apt, USA" />
+
+        </content>
+    </Dialog>
+
+</core:FragmentDefinition>

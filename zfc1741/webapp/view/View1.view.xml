@@ -1,0 +1,42 @@
+<mvc:View controllerName="sync4.zfc1741.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Page id="page" title="{i18n>title}">
+        <content> 
+            <Button text="Search" press="onSearch"/>
+            <ComboBox id="comboClass" 
+                      items="{/classList}" 
+                      selectedKey="400004"
+                      selectionChange="onSelectionChange">
+                <items>
+                    <core:Item key="{class}" text="{cName}"/>
+                </items>
+            </ComboBox>
+
+            <!-- <List>
+                <items>
+                    <StandardListItem title="24040001" description="Kang" />
+                    <StandardListItem title="24040002" description="Han" />
+                </items>
+            </List> -->
+            
+            <!-- <List items="{/stdList}" itemPress="onItemPress">
+                <items>
+                    <StandardListItem type="Active" title="{stdNo}" description="{sName}" />
+                </items>
+            </List> -->
+
+            <Button text="Student" press="onStd" />
+            <Button text="Class" press="onClass" /> 
+
+            <List id="list2nd" items="{}" itemPress="onItemPress">
+                <items>
+                    <StandardListItem title="{key}" description="{text}" />
+                </items>
+            </List>
+
+        </content>
+    </Page> 
+</mvc:View>

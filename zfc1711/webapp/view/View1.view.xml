@@ -1,0 +1,64 @@
+<mvc:View controllerName="sync4.zfc1711.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f = "sap.ui.layout.form"
+    xmlns:core = "sap.ui.core" 
+>
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Panel expanded="true" expandable="true" width="50%">
+                <headerToolbar>
+                    <Toolbar>
+                        <content>
+                            <Title text="Condition Info" />
+                            <ToolbarSpacer />
+                            <Button icon="sap-icon://search" press="onSearch"/>
+                        </content>
+                    </Toolbar>
+                </headerToolbar>
+
+                <Toolbar>
+                    <content>
+                        <Title text="Condition" />
+                    </content>
+                </Toolbar>
+
+                <content>
+                    <Label text="Airline" width="50%" textAlign="Center" />
+                    <Input id="pCarrid" value="AA" width="50%" />
+                    <Label text="Conn No" width="50%" textAlign="Center"/>
+                    <Input id="pConnid" value="17" width="50%"/>
+                </content>
+            </Panel>
+
+        <f:SimpleForm> 
+            <f:title> <core:Title text="Flight Info" /> </f:title>
+
+            <f:content>
+
+                <core:Title text="Airline Info"/>
+                    <Label text="Airline" />
+                    <Input id="inpCarrid" value="AA" enabled='false'/>
+                    <Text text="American Airlines" />
+
+                    <Label text="Currency" />
+                    <Input id="inpCurrency" value="USD" enabled='false'/>
+
+                <core:Title text="Flight shedule" />
+                    <Label text="Flight Number" />
+                    <Input id="inpConnid" value="17" enabled='false'/>
+                    <Label text="City" />
+                    <Input value="NEW YORK" enabled='false'/>
+                    <!-- <Text text="~" /> -->
+                    <Input value="SAN FRANCISCO" enabled='false'/>
+                    <Label text="Airport" />
+                    <Input value="JFK" enabled='false'/>
+                    <!-- <Text text="~"/> -->
+                    <Input value="SFO" enabled='false'/>
+
+            </f:content>
+        </f:SimpleForm>
+
+        </content>
+    </Page>
+</mvc:View>

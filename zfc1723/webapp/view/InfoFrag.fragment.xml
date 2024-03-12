@@ -1,0 +1,32 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+>
+
+<f:SimpleForm>
+
+    <f:title> <core:Title text="Flight Info"/> </f:title>
+
+    <f:content>
+
+        <core:Title text="Airline Info"/>
+            <Label text="Airline" />
+                <Input value="AA" description="American Airlines" enabled="false"/>
+            <Label text="Currency"/>
+                <Input value="USD" enabled="false"/>
+        
+        <core:Title text="Flight Schedule"/>
+            <Label text="Flight Number" />
+                <Input value="17" enabled="false" width="50%" />
+            <Label text="Departure City"/>
+                <Input value="NEW YORK" enabled="false" />
+                <Button text="Popup Button" press="onPopup"/>
+            <Label text="Arival City"/>
+                <Input value="SAN FRANSISCO" enabled="false" width="50%" />
+
+    </f:content>
+
+    </f:SimpleForm>
+
+</core:FragmentDefinition>

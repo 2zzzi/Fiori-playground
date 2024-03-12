@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:l="sap.ui.layout"
+>
+
+<Dialog id="dlgClass" title="Class Info">
+
+<buttons>
+    <Button icon="sap-icon://decline" press="onClose" /> 
+
+</buttons>
+<content>
+    <f:SimpleForm>
+
+        <f:content>
+            <Label text="Class Id" />
+            <Input value="{classInfo>/clsId}"/>
+            <Label text="Class Name" />
+            <Input value="{classInfo>/clsName}"/>
+            <Label text="Location" />
+            <Input value="{classInfo>/clsLocation}" description="{classInfo>/clsLocationText}"/>
+        </f:content>
+
+    </f:SimpleForm>
+</content>
+
+</Dialog>
+
+</core:FragmentDefinition>

@@ -1,0 +1,11 @@
+<mvc:View controllerName="sync4.zfc1722.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Button text="Dialog" press="onPopup"/>
+        </content>
+    </Page>
+</mvc:View>
